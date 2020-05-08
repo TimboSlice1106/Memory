@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".SelectedAnswer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/bucs"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/brady_bunch" />
+
+        <ImageView
+            android:id="@+id/eagles"
+            android:layout_width="25dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/eagles" />
+
+        <ImageView
+            android:id="@+id/titans"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/henry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/jets"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/jets" />
+
+        <ImageView
+            android:id="@+id/skins"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/skins" />
+
+        <ImageView
+            android:id="@+id/steelers"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/steel" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/sea"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/the12thman" />
+
+        <ImageView
+            android:id="@+id/niners"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/the49ers" />
+
+        <ImageView
+            android:id="@+id/eagles2"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:src="@drawable/eagles" />
+
+    </LinearLayout>
+
+</LinearLayout>
